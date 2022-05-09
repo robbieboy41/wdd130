@@ -5,7 +5,8 @@ div {
 
 nav a {
     text-align: center;
-    color: black;
+    color: white;
+    text-decoration: none
 }
 
 #hero-msg h1 {
@@ -17,11 +18,15 @@ nav a {
     text-align: center;
     color: black;
 }
-
-#hero-msg button-box{
-    text-align: center;
+#hero-img{
+    width: 100%;
 }
 
+.button-box {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
 
 
 main section {
@@ -42,6 +47,7 @@ header {
 }
 nav a:hover {
     background-color: rgb(255, 255, 255);
+    color: white;
 }
 
 #book {
@@ -52,14 +58,25 @@ nav a:hover.join {
     background-color: black;
 }
 
-footer h3 {
+footer {
     background-color: rgb(2, 193, 252);   
 }
 
-footer a {
-    background-color: black;
+#background{
+    background-color: rgb(66, 68, 68);   
 }
 
-footer a:hover{
-    background-color: black;
+.msg{
+    background-color: #283636;  
+    color: white;
 }
+
+footer {
+    background: #283636;
+    color:white;
+}
+
+.icon{
+    width: 80px;
+}
+
