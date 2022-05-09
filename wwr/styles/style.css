@@ -1,0 +1,66 @@
+div {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-align: center;
+    color: black;
+}
+
+#hero-msg h1 {
+    text-align: center;
+    color: black;
+}
+
+#hero-msg h4 {
+    text-align: center;
+    color: black;
+}
+
+#hero-msg h4.book{
+    text-align: center;
+    color: white;
+}
+
+
+
+main section {
+    text-align: center;
+    color: black;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #a5a5a5;
+}
+
+header {
+    background-color:#283636;
+}
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#book {
+    background-color: rgb(255, 0, 191);
+}
+
+nav a:hover.join {
+    background-color: black;
+}
+
+footer h3 {
+    background-color: rgb(2, 193, 252);   
+}
+
+footer a {
+    background-color: black;
+}
+
+footer a:hover{
+    background-color: black;
+}
