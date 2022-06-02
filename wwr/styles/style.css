@@ -9,6 +9,11 @@ main section img {
     box-sizing: border-box;
 }
 
+main.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -122,8 +127,8 @@ nav a:hover {
 }
 
 .camping-card {
-    grid-column-start: 5/7;
-    grid-row-start: 2/3;
+    grid-column: 5/7;
+    grid-row: 2/3;
 }
 
 .rapids-card {
@@ -134,6 +139,8 @@ nav a:hover {
 #background {
     grid-column: 1/11;
     grid-row: 4/9;
+    height: 725px;
+    background-color: rgb(66, 66, 68);  
 }
 
 .mountains {
@@ -141,6 +148,11 @@ nav a:hover {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
     width: 100%;
+}
+
+.msg {
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 .icon {
     padding-top: 10px;
@@ -157,10 +169,7 @@ main section {
     color: black;
 }
 
-#background {
-    height: 725px;
-    background-color: rgb(66, 68, 68);  
-}
+
 
 body {
     background-color: #a5a5a5;
