@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,700&family=Open+Sans:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tiro+Gurmukhi&display=swap');
 
 div {
     max-width: 1600px;
@@ -51,7 +51,7 @@ nav {
   transform: translate(-50%, -50%);
   color: white;
   -webkit-text-stroke: 1px black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Playfair Display, serif"; 
 
 }
 
@@ -168,7 +168,7 @@ main section {
 
 body {
     background-color: #4f4f52;
-    font-family: 'Libre Bodoni', serif;
+    font-family: "Tiro Gurmukhi', serif"
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -176,7 +176,7 @@ body {
 
 header {
     background-color:#ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Playfair Display, serif"; 
 }
 
 
@@ -186,7 +186,7 @@ footer {
     background-color: #ffffff;
     padding: 15px 10px; 
     margin-top: 200px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Playfair Display, serif"; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -208,7 +208,7 @@ footer .social img {
 }
 
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: "Playfair Display, serif"; 
     font-size: 2em;
     margin-top: 10px;
 }       
